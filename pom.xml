@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.fosun</groupId>
 	<artifactId>hani</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>fordan</name>
 	<description>PDF</description>
 	<properties>
