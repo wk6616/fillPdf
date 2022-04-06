@@ -1,5 +1,5 @@
 server:
- port: 8085
+ port: 8080
  servlet:
   context-path: /fordan
  #修改tomcat的吞吐量
@@ -22,12 +22,6 @@ spring:
   #console: '%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %-5level %logger- %msg%n'
  #file:
  # name: /usr/hanipdf/logs/hanipdf.log
-#logging:
- #pattern:
-  #file: '%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %-5level %logger- %msg%n'
- # console: '%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %-5level %logger- %msg%n'
- #file:
-  #name: D:\hani\logs\hini.log
 
 
 
