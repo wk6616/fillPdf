@@ -1,0 +1,33 @@
+server:
+ port: 8085
+ servlet:
+  context-path: /fordan
+ #修改tomcat的吞吐量
+ tomcat:
+  max-swallow-size: -1
+  max-http-form-post-size: -1
+
+spring:
+ servlet:
+  multipart:
+   enabled: true
+   max-file-size: -1
+   max-request-size: -1
+
+
+#log日志地址
+#logging:
+ #pattern:
+ # file: '%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %-5level %logger- %msg%n'
+  #console: '%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %-5level %logger- %msg%n'
+ #file:
+ # name: /usr/hanipdf/logs/hanipdf.log
+#logging:
+ #pattern:
+  #file: '%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %-5level %logger- %msg%n'
+ # console: '%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %-5level %logger- %msg%n'
+ #file:
+  #name: D:\hani\logs\hini.log
+
+
+
